@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_box{
+            background-color:rgb(54, 45, 227);
+            display: grid;
+            height: 300px;
+            width: 450px;
+            border: 20px solid rgb(54,45,227);
+            gap: 15px;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: repeat(3,1fr);
+        }
+        .main_box>div{
+            background-color: lightblue;
+            padding-top: 30px;
+            text-align: center;
+            font-size: 25px;
+        }
+        #p1{
+            grid-row: 1/4;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_box">
+        <div class="main" id="p1">1</div>
+        <div class="main">2</div>        
+        <div class="main">3</div>            
+        <div class="main">4</div>            
+        <div class="main">5</div>            
+        <div class="main">6</div>      
+        <div class="main">7</div>
+        <div class="main">8</div>
+        <div class="main">9</div>
+        <div class="main">10</div>
+        <div class="main">11</div>
+        <div class="main">12</div>
+        <div class="main">13</div>
+        <div class="main">14</div>
+        <div class="main">15</div>
+        <div class="main">16</div>
+    </div>
+</body>
+</html>
